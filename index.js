@@ -1,6 +1,5 @@
 
 const packageUser = require("./information");
-console.log(packageUser);
 
 var cowsay = require("cowsay");
 
@@ -8,7 +7,10 @@ var cowsay = require("cowsay");
 var cowsay = require("cowsay");
 
 console.log(cowsay.say({
-	text : "mheeuuuuu ",
+	text : packageUser.userName+" de la "+packageUser.campus,
 	e : "oO",
 	T : "U "
 }));
+
+//console.log();
+//console.log(`${userName}de la ${campus}`);
